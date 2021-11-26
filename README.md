@@ -1,7 +1,7 @@
 # VariSocial
 
 ### What is the use of this repo?
-We will create a social media platform.
+We will create a social media platform(work in progress).
 
 ### What is the goal of this repo?
 We have created this repository to learn group work and learn about how a social media platform works basically.
