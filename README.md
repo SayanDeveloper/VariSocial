@@ -23,4 +23,4 @@ We have created this repository to learn group work and learn about how a social
 ### Who can contribute?
 Anyone can contribute in this repo if you have sound knowledge of react.js and Node.Js
 
-##### Happy Coding :-)
+##### Happy Coding 
