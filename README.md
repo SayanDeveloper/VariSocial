@@ -18,7 +18,7 @@ We have created this repository to learn about how a social media platform works
 - First fork the repo
 - Install Node.Js in your machine
 - Then open terminal in the directory of this repo
-- Type "npm install" to install all dependencies
+- Type ```npm install``` to install all dependencies
 - Then create a file named ```firebase.js``` in ```/src``` folder.
 - Now copy the below code in that file
   ```
@@ -36,7 +36,7 @@ We have created this repository to learn about how a social media platform works
 
   export {db, auth};
   ```
-- Now in terminal of the root this repo's root folder type "npm start" to run the project in dev mode.
+- Now in terminal of this repo's root folder type ```npm start``` to run the project in dev mode.
 
 ### Who can contribute?
 Anyone can contribute in this repo if you have sound knowledge of react.js and firebase firestore
