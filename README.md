@@ -4,14 +4,14 @@
 We will create a social media platform(work in progress).
 
 ### What is the goal of this repo?
-We have created this repository to learn group work and learn about how a social media platform works basically.
+We have created this repository to learn about how a social media platform works basically.
 
 ### Tech Stacks Used :
 - HTML
 - CSS
 - Js
 - React.js
-- Node.js
+- Firestore
 
 ### Installations and usage
 
