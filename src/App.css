@@ -1,0 +1,460 @@
+.text-center {
+    text-align: center;
+}
+.body {
+    width: 1120px;
+    margin: auto;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+.sidebar {
+    width: 260px;
+    height: 400px;
+    position: sticky;
+    top: 90px;
+}
+.sidebar-up {
+    border-radius: 10px;
+    background-color: blanchedalmond;
+    overflow: hidden;
+}
+.sidebar-up .profile_bg_sidebar {
+    width: 100%;
+    height: 120px;
+}
+.sidebar-up .profile_bg_sidebar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.sidebar-down {
+    border-radius: 10px;
+    padding: 20px 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    background-color: rgb(236, 255, 205);
+    box-shadow: 0px 0px 5px rgb(196, 255, 101);
+    overflow: hidden;
+    margin-top: 20px;
+}
+.sidebar-down > div {
+    margin-bottom: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.prof-det-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -50px;
+}
+.prof-img-side {
+    height: 80px;
+    width: 80px;
+}
+.prof-img-side img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.prof-name-side {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.prof-bio-side {
+    font-size: 14px;
+    padding: 0px 10px;
+    margin-top: 10px;
+}
+.full-profile-side {
+    height: 30px;
+    border-top: 1px solid rgba(0, 0, 0, 0.11);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    cursor: pointer;
+    font-family: cursive;
+}
+.full-profile-side:hover {
+    background-color: rgba(255, 153, 0, 0.144);
+}
+
+
+.body {
+    position: relative;
+}
+.feed {
+    width: 560px;
+}
+.right-widget {
+    width: 220px;
+    height: 400px;
+    background-color: ghostwhite;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-family: cursive;
+    top: 90px;
+}
+.post_field {
+    width: calc(100% - 20px);
+    height: 130px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.082);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.164);
+    margin-bottom: 20px;
+}
+.post_field .first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.post_field .first textarea {
+    height: 50px;
+    width: 300px;
+    margin-left: 30px;
+    resize: none;
+    padding: 10px;
+    font-size: 16px;
+    font-family: sans-serif;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.233);
+    outline: none;
+    transition: 0.2s;
+}
+.post_field .first textarea:focus {
+    border: 1px solid rgb(0, 140, 255);
+}
+.post_field .first button:active {
+    transform: scale(0.9);
+    transition: all 0.3s;
+}
+.post_field .first button {
+    width: 90px;
+    height: 35px;
+    border-radius: 10px;
+    margin-left: 20px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 2px 4px rgba(176, 255, 255, 0.322);
+    background-color: rgb(31, 154, 255);
+    color: white;
+    cursor: pointer;
+}
+.post_field .first button:hover {
+    box-shadow: 2px 2px 5px rgb(102, 194, 255);
+}
+.post_field .first .pic img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.post_field .second {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+}
+.post_field .second > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 45px;
+}
+.post_field .second > div:hover {
+    background-color: ghostwhite;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.089);
+}
+.post_field .second > div img {
+    margin-right: 10px;
+    width: 35px;
+}
+hr.line_top {
+    border-color: rgba(0, 0, 0, 0.089);
+    margin-bottom: 15px;
+}
+
+.post_card {
+    border: 1px solid rgba(0, 0, 0, 0.062);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.089);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 15px;
+    animation: appear 0.2s 1;
+}
+@keyframes appear {
+    0% {transform: scale(0.9);}
+    100% {transform: scale(1);}
+}
+.post-head {
+    display: flex;
+    margin-bottom: 20px;
+}
+.post-head .left {
+    display: flex;
+}
+.post-head .left .user .name {
+    font-size: 17px;
+}
+.post-head .left .user .name.special {
+    font-weight: 600;
+    color: rgb(31, 154, 255);
+}
+.post-head .left .user .time {
+    font-size: 13px;
+}
+.post-dp {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.post-body {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.post-img-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    max-width: 100%;
+    position: relative;
+}
+.post-img-container img {
+    max-width: 100%;
+    object-fit: contain;
+}
+
+/* Friends page */
+.friends_req_list {
+    width: 770px;
+}
+.friends_req_list  > div > h2 {
+    margin-bottom: 15px;
+}
+.friends_req {
+    margin-bottom: 20px;
+}
+.friend_card {
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+    background-color: rgb(255, 248, 238);
+    border: 1px solid rgb(255, 223, 174);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.friend_card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.075);
+}
+.friend_card .fr-card-det {
+    width: 400px;
+}
+.friend_card .fr-req-op {
+    margin-right: 40px;
+}
+.friend_card .fr-req-op button {
+    margin-left: 10px;
+    width: 65px;
+    height: 30px;
+    border: none;
+    background-color: cadetblue;
+    color: white;
+    border-radius: 5px;
+}
+.friend_card .fr-req-op button:hover {
+    box-shadow: 0px 0px 5px rgb(147, 196, 196);
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+/* Profile detail page */
+.profile-detail-page {
+    display: block;
+}
+.profile-detail-page .profile-bg {
+    width: 100%;
+    height: 250px;
+}
+.profile-detail-page .profile-bg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.171);
+    border-radius: 5px;
+}
+.profile-detail-page .prof-real-det {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -65px;
+    background-color: rgb(255, 247, 236);
+    border: 1px solid rgb(255, 226, 187);
+    border-radius: 10px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+.profile-detail-page .prof-real-det img {
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.226);
+    margin-bottom: 15px;
+}
+.profile-det-bio {
+    margin-top: 10px;
+    font-size: 17px;
+}
+.profile-page-rest {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.profile-page-rest .profile-post {
+    width: 600px;
+}
+.profile-page-rest .profile-post h2 {
+    margin-bottom: 20px;
+}
+.profile-page-rest .profile-friend-list {
+    width: 300px;
+    position: sticky;
+    height: 300px;
+    top: 90px;
+    border: 1px solid rgb(188, 225, 255);
+    background-color: rgb(242, 249, 255);
+    border-radius: 10px;
+    padding: 10px;
+}
+.profile-friend-list .each {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    border-top: 1px solid rgb(169, 238, 255);
+    border-bottom: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 1px;
+}
+.profile-friend-list .each > a {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.profile-friend-list .each > a:nth-child(2) {
+    width: 220px;
+    color: rgb(48, 48, 48);
+    text-decoration: none;
+}
+.profile-friend-list .each img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.profile-friend-list h2 {
+    margin-bottom: 25px;
+}
+.profile-friend-list .each h4 {
+    margin-left: 20px;
+}
+.profile-friend-list .each button {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(255, 153, 0);
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.profile-friend-list .see-more-friends {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    font-family: cursive;
+    bottom: 0px;
+    color: rgb(0, 162, 255);
+    background-color: rgb(246, 255, 255);
+    left: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: 0.3s;
+}
+.profile-friend-list .see-more-friends:hover {
+    background-color: white;
+}
+
+/* responsiveness */
+
+@media screen and (max-width: 1250px) {
+    .body {
+        width: 900px;
+    }
+    .right-widget {
+        display: none;
+    }
+    .profile-post .post_card {
+        width: 500px !important;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .body {
+        width: 560px;
+    }
+    .sidebar {
+        display: none;
+    }
+}
+@media screen and (max-width: 650px) {
+    .body {
+        width: calc(100% - 20px);
+        padding: 10px;
+    }
+    .feed {
+        width: 100%;
+    }
+    .post_card {
+        width: calc(100%-20px) !important;
+    }
+}
+@media screen and (max-width: 530px) {
+    .post_field .pic img {
+        display: none;
+    }
+    .post_field textarea {
+        width: 60vw !important;
+        margin-left: 0px !important;
+    }
+    .post_field {
+        width: 100%;
+        position: relative;
+        left: -10px;
+        border-radius: 0px;
+    }
+    .body {
+        margin-top: 60px;
+    }
+}

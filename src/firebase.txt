@@ -1,0 +1,8 @@
+const firebaseConfig = {
+  apiKey: "AIzaSyBny7gBsyzMSIjme4DQ3VXTudinQQCDIKc",
+  authDomain: "varisocial.firebaseapp.com",
+  projectId: "varisocial",
+  storageBucket: "varisocial.appspot.com",
+  messagingSenderId: "797900852075",
+  appId: "1:797900852075:web:9a05168bea16a0cc679a2e"
+};
